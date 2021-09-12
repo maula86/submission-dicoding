@@ -1,0 +1,31 @@
+make folder
+
+- make folder src
+
+Instalasi package bootstrap
+Aabout npm
+    npm init
+    -> dependencies
+    --install bootstrap
+    --install popper.js
+    --install jquery
+
+- make folder script
+-- create index.js ini punjer
+
+instalasi packge 
+    -> devDependencies
+    --install @babel/core @babel/preset-env babel-loader
+    --install  style-loader
+    --install  webpack webpack-cli webpack-dev-server webpack-merge
+
+    complit perintah
+    npm install @babel/core @babel/preset-env babel-loader css-loader html-webpack-plugin style-loader webpack webpack-cli webpack-dev-server webpack-merge --save-dev
+
+--create file
+
+        webpack.common.js
+
+        webpack.dev.js
+
+        webpack.prod.js
